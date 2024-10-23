@@ -1,0 +1,37 @@
+.hero {
+    padding-left: 120px;
+    padding-right: 50px;
+    padding-top: 157px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero1 h1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 96px;
+    text-align: left;
+}
+
+.hero1 p {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: left;
+    color: #bcbcbc;
+    padding-bottom: 73px;
+    padding-top: 34px;
+}
+
+.hero1 button {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+    padding: 19px 64px;
+    border: none;
+    border-radius: 83px;
+    background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+}

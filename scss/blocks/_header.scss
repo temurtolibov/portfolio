@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 46px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+}
+
+.logo p {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    column-gap: 98px;
+}
+
+ul>li>a {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

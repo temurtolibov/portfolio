@@ -1,0 +1,67 @@
+.project {
+  padding-left: 120px;
+  margin-top: 100px;
+}
+
+.project h1 {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 96px;
+  text-align: left;
+  text-align: center;
+  padding-bottom: 93px;
+}
+
+.box {
+  border: none;
+  box-shadow: 0px 0px 8px 1px rgba(255, 255, 255, 0.75);
+  max-width: 550px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-bottom: 97px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.box img {
+  margin: 25px;
+  border-radius: 8px;
+}
+
+.box h3 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 31.86px;
+  padding-bottom: 25px;
+}
+
+.box button {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  padding: 15px 52px;
+  border: none;
+  border-radius: 83px;
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+.box button:hover {
+  background: linear-gradient(
+    98deg,
+    rgba(19, 173, 199, 1) 0%,
+    rgba(105, 120, 209, 1) 100%,
+    rgba(148, 93, 214, 1) 100%
+  );
+}
+
+.project-box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
